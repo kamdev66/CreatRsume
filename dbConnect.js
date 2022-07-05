@@ -1,6 +1,6 @@
 const mongoose=require('mongoose');
 
-const URL='mongodb+srv://kamdev:bholenath123@cluster0.9jttz.mongodb.net/creat-rsume';
+const URL='mongodb+srv://kamdev:<password>@cluster0.9jttz.mongodb.net/creat-rsume';
 
 mongoose.connect(URL,{useUnifiedTopology:true, useNewUrlParser: true})
 
